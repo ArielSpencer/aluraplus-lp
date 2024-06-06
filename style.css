@@ -1,0 +1,121 @@
+:root {
+    --cor-primaria: #167BF7;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #C0C0C0;
+    --cor-fonte: #F9F9F9;
+    --cor-background: #000000;
+    --botao-azul-hover: #0B8CE9;
+    --fonte-principal: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-secundaria);
+}
+.container {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.banner {
+    background-image: url("./assets/Background.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+h1 {
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    margin: 0 1em;
+
+}
+
+.container__imagem {
+    margin: 1.37em 0 3.37em 0;
+}
+
+.container__botao {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 1em 5em;
+    color: var(--cor-secundaria);
+    display: block;
+    
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-hover);
+    border-color: var(--botao-azul-hover);
+}
+
+.botao_secundario {aviso
+    background-color: transparent;
+    border-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.container__aviso {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+
+}
+
+.secundario__imagem {
+    width: 70%;
+}
+
+h2 {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 8px;
+}
+
+.paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer {
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 10em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
