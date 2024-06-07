@@ -18,7 +18,7 @@ body {
     color: var(--cor-secundaria);
 }
 .container {
-    height: 80vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .container__caixa {
-    margin: 0 6em;
+    margin: 0 2em;
 }
 
 h1 {
@@ -70,10 +70,15 @@ h1 {
     border-color: var(--botao-azul-hover);
 }
 
-.botao_secundario {aviso
+.botao_secundario {
     background-color: transparent;
     border-color: var(--cor-secundaria);
     color: var(--cor-secundaria);
+}
+
+.botao_terciario {
+    display: inline-block;
+    margin-inline-start: initial;
 }
 
 .container__aviso {
@@ -86,6 +91,7 @@ h1 {
 
 .secundario {
     align-items: center;
+    justify-items: center;
     margin: 0 10em;
 
 }
@@ -110,6 +116,34 @@ h2 {
     text-align: left;
 }
 
+.dispositivos__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: var(--cor-secundaria);
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 40px 0;
+}
+
+.lista__item {
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
 footer {
     font-family: var(--fonte-principal);
     color: var(--cor-terciaria);
@@ -118,4 +152,19 @@ footer {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10%;
+}
+
+.lista__link {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
